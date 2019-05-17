@@ -1,0 +1,27 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\nimas\documents\visual studio 2015\Projects\additionCuda\additionCuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\nimas\documents\visual studio 2015\Projects\additionCuda\additionCuda\kernel.cu" 
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(89): warning : return type of function "main" must be "int"
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning : variable "d_M1" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning : variable "d_M2" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning : variable "d_M3" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(10): warning : variable "m" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(89): warning : return type of function "main" must be "int"
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning : variable "d_M1" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning : variable "d_M2" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning : variable "d_M3" was declared but never referenced
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(10): warning : variable "m" was declared but never referenced
+  kernel.cu
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(39): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(40): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(96): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning C4101: 'd_M3': unreferenced local variable
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning C4101: 'd_M1': unreferenced local variable
+C:/Users/nimas/documents/visual studio 2015/Projects/additionCuda/additionCuda/kernel.cu(101): warning C4101: 'd_M2': unreferenced local variable
+  additionCuda.vcxproj -> C:\Users\nimas\documents\visual studio 2015\Projects\additionCuda\x64\Debug\additionCuda.exe
+  additionCuda.vcxproj -> C:\Users\nimas\documents\visual studio 2015\Projects\additionCuda\x64\Debug\additionCuda.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\nimas\documents\visual studio 2015\Projects\additionCuda\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 file(s) copied.
